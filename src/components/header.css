@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    opacity: 0.9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+   
+}
+
+.header span{
+    position: relative;
+    left: 70px;
+}
+
+.header span h1{
+    font-weight: 3000;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+.header ul li{
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav_sign{
+    padding: 5px 20px;
+    background-color: transparent;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav_sign:hover{
+    background-color: rgb(28, 139, 28);
+}
+
+.header ul li .active{
+    color: green;
+}
+
+
+

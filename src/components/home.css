@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.home_main{
+    display: flex;
+    flex-direction: row;
+}
+
+.home{
+   background-image: url('https://www.restaurantnews.com/wp-content/uploads/2022/10/Fat-Boys-Pizza-Has-Big-Plans-to-Expand-Through-Franchising.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+    height: 90vh;
+    width: 60%;
+    
+}
+
+.text{
+    background-image: url('https://t4.ftcdn.net/jpg/01/70/93/27/360_F_170932733_VOHGeaH5AjrVCXBVryEwVgwhArv2wNNH.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text h1{
+    position: relative;
+    bottom: 150px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 1600;
+    font-size: 40px;
+    color: #fff;
+}
+
+.buttons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.buttons button{
+    padding:10px 20px;
+    
+}
+
+.btn1{
+    background-color: rgb(238, 238, 5);
+    border-color: black;
+    border-width: 2px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: rgb(235, 235, 107);
+}
+
+.btn2{
+    background-color: transparent;
+    color: #fff;
+    border-color: rgb(216, 174, 174);
+    font-weight: 2000;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: rgb(30, 30, 238);
+}

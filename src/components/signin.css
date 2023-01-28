@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    background-image: url('https://img.freepik.com/premium-photo/black-brick-wall-texture-dark-brickwork-background_541595-718.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner_container{
+    background-color: rgb(196, 221, 231);
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    flex-direction: column;
+    
+}
+
+.userName{
+    
+    text-align: center;
+    position: relative;
+    bottom: 70px;
+    font-weight: 900;
+    
+}
+
+.input1{
+    position: relative;
+    bottom: 60px;
+    margin: 0px 30px;
+    padding: 10px 0px;
+    
+}
+
+.password{
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+    font-weight: 900;
+}
+
+.input2{
+    position: relative;
+    bottom: 40px;
+    margin: 0px 30px;
+    padding: 10px 0px;
+}
+
+.account{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+}
+
+.btnn{
+    padding: 10px;
+    margin: 0px 150px;
+    background-color: rgb(107, 107, 228);
+    color: white;
+    border-color: transparent;
+    cursor: pointer;
+}
+.btnn:hover{
+    background-color: blue;
+}
+
+.p2{
+    padding: 0px 20px;
+}
+
+.link{
+    text-decoration: none;
+
+}
+
+.p1{
+    padding: 0px 20px;
+}

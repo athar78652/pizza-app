@@ -6,7 +6,7 @@ const Header = () => {
     return (
        <>
         <div className='header'>
-            <span><h1>Pizza Hut</h1></span>
+            <span><h1>Pizza Point</h1></span>
             <ul>
                 <li><NavLink to='/'>Home</NavLink></li>
                 <li><NavLink to='/menu'>Menu</NavLink></li>

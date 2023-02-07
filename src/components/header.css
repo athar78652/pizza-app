@@ -4,8 +4,8 @@
 }
 
 .header{
-    background-color: black;
-    opacity: 0.9;
+    background-color: grey;
+    opacity: 0.5;
     display: flex;
     justify-content: space-between;
     align-items: center;
